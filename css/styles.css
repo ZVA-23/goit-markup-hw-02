@@ -1,0 +1,96 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет #212121*/
+/* акцент #2196F3 */
+
+/* белый #FFFFFF */
+/* белый вторичный rgba(255, 255, 255, 0.6) */
+
+:root {
+    --primari-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --secondary-white-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primari-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header */
+/* Nav */
+.logo {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus  {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Button */
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.button.secondary {
+    background-color: #F5F4FA;
+    color: var(--title-text-color);
+}
+
+/* footer */
+.auth-nav .link {
+    color: var(--primary-white-color);
+}
+
+.auth-nav .link.current {
+    color: var(--secondary-white-color);
+}
+
+
+/* Стили для index.html */
+/* Hero */
+.hero-title {
+    color: var(--title-text-color);
+}
+
+/* Sections */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Our team */
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* Стили для portfolio.html */
+/* Our projects */
+.project-list .title {
+    color: var(--title-text-color);
+}
+
