@@ -65,7 +65,8 @@ body {
     color: var(--primary-white-color); 
 }
 
-.site.list .nav-link {
+.nav-link,
+.contact-link {
     color: var(--title-text-color);
     
     font-weight: 500;
@@ -74,32 +75,22 @@ body {
     text-decoration: none;
 }
 
-.site.list .nav-link:hover, 
-.site.list .nav-link:focus  {
-    color: var(--accent-color);
-}
-
-.site.list .nav-link.current {
-    color: var(--accent-color);
-}
-
-.site.list .contact-link {
+.contact-link {
     color: var(--primari-text-color);
-
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
-.site.list .contact-link:hover,
-.site.list .contact-link:focus {
+.nav-link:hover, 
+.contact-link:hover, 
+.nav-link:focus, 
+.contact-link:focus  {
     color: var(--accent-color);
 }
 
-.site.list .contact-link.current {
+.nav-link.current,
+.contact-link.current {
     color: var(--accent-color);
 }
+
 
 /* Стили для index.html */
 /* Hero */
