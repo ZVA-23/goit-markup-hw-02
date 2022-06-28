@@ -157,7 +157,7 @@ body {
 .card {
     background-color: var(--primary-white-color);
 }
-.team-title {
+.team-name {
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -166,7 +166,7 @@ body {
     text-align: center;
 }
 
-.team-text {
+.team-position {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -224,24 +224,25 @@ body {
     background-color: #2F303A;
 }
 
-.auth-nav .link {
+ .address-item {
     color: var(--primary-white-color);
 
-    font-weight: 400;
     line-height: 1.71;
+    font-style: normal;
+
     text-decoration: none;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.address-item:hover,
+.address-item:focus {
     color: var(--accent-color);
 }
 
-.auth-nav .link.current {
+.address-item.current {
     color: var(--secondary-white-color);
 }
 
-.auth-nav .link.current:hover,
-.auth-nav .link.current:focus {
+.address-item.current:hover,
+.address-item.current:focus {
     color: var(--accent-color);
 }
